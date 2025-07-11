@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://172.24.31.226:9000/</sonar.host.url>
-		<sonar.login>squ_89564211211c2d45aa3954d5dbc6de7774358f93</sonar.login> 
+		<sonar.login>squ_e33259b8e424caa334b0d9cda36e23ddebae9413</sonar.login> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://172.31.40.189:8081/repository/flipkart-release/</url>
+	      <url>http://172.24.31.226:8081/repository/jio-release-repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://172.31.40.189:8081/repository/flipkart-snapshot/</url>
+	      <url>http://172.24.31.226:8081/repository/jio-snapshot-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
