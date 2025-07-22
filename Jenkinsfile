@@ -21,7 +21,7 @@ node{
     }
     
     stage("deployment"){
-        deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-credentials', path: '', url: 'http://172.24.31.226:9090/')], contextPath: '/web-app-new', onFailure: false, war: '**/*.war'
+        deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-credentials', path: '', url: 'http://172.24.31.226:9090/')], contextPath: '/web-app-new-dev', onFailure: false, war: '**/*.war'
     }
     
     stage("upload artifactory"){
